@@ -30,18 +30,37 @@
                 </h3>
             </div>
         </div>
-        
+
         <div class="buttonHolder">
             <button type="button" class="btn btn-primary btnAdjusts" id="best3">Best of 3</button>
-            <button type="button" class="btn btn-primary btnAdjusts" id="best5">Best of 5</button> 
+            <button type="button" class="btn btn-primary btnAdjusts" id="best5">Best of 5</button>
             <button type="button" class="btn btn-primary btnAdjusts" id="best7">Best of 7</button>
         </div>
     </section>
 
-    <section class="container-fluid gameInProgress">
-        <img src="./assets/img/paper.jpg"/>
-        <img src="./assets/img/rock.jpg"/>
-        <img src="./assets/img/Scissor.jpg">
+    <section class="container-fluid gameInProgress hideElement" {
+        display: none;
+    }">
+
+        <h3>Your Score: <span>0</span><br>
+            Oponents Score: <span>0</span></h3>
+        <h2>Choose your play</h2>
+        <br>
+        <br>
+        <div class="optionHolder">
+        <article class="images">
+            <img class="options" src="./assets/img/paper.jpg" />
+        </article>
+
+        <article class="images">
+            <img class="options" src="./assets/img/rock.jpg" />
+        </article>
+
+        <article class="images">
+            <img class="options" src="./assets/img/Scissor.jpg" />
+        </article>
+    </div>
+
     </section>
 
 

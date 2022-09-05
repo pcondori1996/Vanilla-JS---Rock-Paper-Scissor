@@ -22,10 +22,45 @@ header {
     background-color: black;
 }
 
-.hideElement {
-    display: none;
-}
+
 
 .btnAdjusts {
     margin: 20px;
+}
+
+.gameInProgress {
+    text-align: center;
+}
+
+.optionHolder {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.images {
+    background: wheat;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition:all;
+    text-align: center;
+}
+
+.images:hover {
+    border-color: white;
+    background: transparent;
+}
+
+
+.options {
+    margin: 30px;
+    height: 350px;
+    width: 350px;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.hideElement {
+    display: none;
 }
