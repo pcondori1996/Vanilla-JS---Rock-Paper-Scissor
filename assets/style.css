@@ -1,0 +1,31 @@
+* {
+    background-color: black;
+    color: antiquewhite;
+text-size-adjust: 150%;
+}
+
+.instructions {
+    text-align: center;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+
+    
+}
+
+.headerImg { 
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.hideElement {
+    display: none;
+}
+
+.btnAdjusts {
+    margin: 20px;
+}
